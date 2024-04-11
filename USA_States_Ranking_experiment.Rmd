@@ -1,0 +1,145 @@
+---
+title: "USA State Education Ranking"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r}
+
+USA_Education_Proportions <- read.csv("C:/Users/josea/OneDrive/WorkSpace/USA_Education_Proportions_updatedforpuerto.csv", header=FALSE)
+
+
+names(USA_Education_Proportions) <- c("State", "Algebra I", "Geometry", "Algebra II", "Adv. Math I", "Calculus", "Biology", "Chemistry", "Physics", "FTE COUNT", "Meeting all Lic and cert", "First year", "Second year", "SAT-ACT COUNT", "Total Enrollment", "At least one AP COUNT", "SAT-ACT", "AP")
+
+USA_Education_Proportions <- USA_Education_Proportions[-1, ]
+```
+```{r}
+#removes the first entry of the data...it cell represents the combined states
+USA_Education_Proportions <- USA_Education_Proportions[-1, ]
+
+```
+```{r}
+#run chunk in case I need to remove the COUNT columns
+USA_Education_Proportions <- USA_Education_Proportions[,-10]
+USA_Education_Proportions <- USA_Education_Proportions[,-13]
+USA_Education_Proportions <- USA_Education_Proportions[,-13]
+USA_Education_Proportions <- USA_Education_Proportions[,-13]
+
+```
+
+```{r}
+
+# Remove the first element from each vector in the list
+my_list <- lapply(USA_Education_Proportions, function(x) x[-1])
+
+# Remove the first vector from the list
+my_list <- my_list[-1]
+
+# Print the modified list
+print(my_list)
+
+```
+
+
+```{r}
+# Convert list to matrix
+my_matrix <- matrix(unlist(my_list), nrow = length(my_list), byrow = TRUE)
+
+# Print the matrix
+print(my_matrix)
+```
+
+```{r}
+replace_na_with_mean <- function(x) {
+  column_mean <- mean(x, na.rm = TRUE)
+  x[is.na(x)] <- column_mean
+  return(x)
+}
+
+# Apply the function to each column of the matrix
+matrix_without_na <- apply(my_matrix, 2, replace_na_with_mean)
+```
+
+
+```{r}
+numeric_matrix <- as.numeric(my_matrix)
+fin_mat=matrix(numeric_matrix,13,52)
+```
+
+```{r}
+a=eigen(fin_mat%*%t(fin_mat))$values
+
+#plotting a then viewing a[1]
+```
+
+```{r}
+#viewing covariance matrix of final matrix from preivous chunk
+
+w= cov(fin_mat)
+
+b=eigen(w%*%t(w))$values
+#we can then plot b
+```
+ 
+```{r}
+# covariance final matrix transposed due to viewing the parameters on the x-axis
+
+w = cov(t(fin_mat))
+
+b=eigen(w%*%t(w))$values
+```
+
+```{r}
+u=eigen(fin_mat%*%t(fin_mat))$vectors
+
+plot(u[,1])
+
+plot(u[,1],u[,2])
+```
+
+```{r}
+kmeans(r[,1:2],4)
+
+kmeans(r[,1:2],3)
+
+
+```
+
+```{r}
+r=eigen(t(fin_mat)%*%fin_mat)$vectors
+
+plot(r[,1])
+plot(r[,1],r[,2])
+
+plot(r[,2],r[,3])
+
+plot(r[,1],r[,3])
+
+plot(r[,1],r[,4])
+
+
+plot(r[,1],r[,2])
+```
+
+```{r}
+kmeans(r[,1])
+
+kmeans(r[,1],2)
+
+kmeans(r[,1],3)
+
+kmeans(r[,1],2)
+
+kmeans(r[,1],4)
+kmeans(r[,1],3)
+
+kmeans(r[,1:2],3)
+
+kmeans(r[,1:2],4)
+```
+
+
+Goal to use PCA plot with labels
+
+
+

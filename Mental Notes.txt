@@ -1,0 +1,35 @@
+different wayes of normalizing the data and to set nxq matrix into a qxq matrix
+
+
+need to make a percentage matrix and a count matrix
+
+
+ap, advanced math , act or sat, science coruces, math classes
+
+teach er certification as support
+
+
+
+highschool math and science merged as first
+
+added teaching for seond merge
+
+
+sat or act for thrid merge
+
+
+at leastt one AP for forth merge
+
+
+added enrollment for fith merge
+
+-------------------
+
+Things I would like to add still 
+
+
+
+would like to add graduation rate for each state
+
+
+**input puerto rico sat-act input as a zero for the time being**

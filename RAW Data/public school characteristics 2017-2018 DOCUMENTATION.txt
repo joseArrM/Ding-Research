@@ -1,0 +1,30 @@
+public school characteristics 2017-2018 INFO
+
+Summary
+A selection of administrative attributes for public elementary and secondary schools from the 2017-2018 school year applied to point locations developed for the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program.
+
+The National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimate (EDGE) program develops annually updated point locations (latitude and longitude) for public elementary and secondary schools included in the NCES Common Core of Data (CCD). The NCES EDGE program collaborates with the U.S. Census Bureau's Education Demographic, Geographic, and Economic Statistics (EDGE) Branch to develop point locations for schools reported in the annual CCD directory file. The CCD program annually collects administrative and fiscal data about all public schools, school districts, and state education agencies in the United States. The data are supplied by state education agency officials and include basic directory and contact information for schools and school districts, as well as characteristics about student demographics, number of teachers, school grade span, and various other administrative conditions. CCD school and agency point locations are derived from reported information about the physical location of schools and agency administrative offices. The point locations and administrative attributes in this data layer were developed from the 2017-2018 CCD collection. For more information about NCES school point data, see: https://nces.ed.gov/programs/edge/Geographic/SchoolLocations. For more information about these CCD attributes, as well as additional attributes not included, see: https://nces.ed.gov/ccd/files.asp.
+
+Notes:
+-1 or M
+
+Indicates that the data are missing.
+
+-2 or N
+
+Indicates that the data are not applicable.
+
+-9
+
+Indicates that the data do not meet NCES data quality standards.
+
+
+
+All information contained in this file is in the public domain. Data users are advised to review NCES program documentation and feature class metadata to understand the limitations and appropriate use of these data.
+
+---------------------------------------------------------------------------------
+Attributes
+
+
+
+
