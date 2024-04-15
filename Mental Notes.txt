@@ -8,28 +8,20 @@ ap, advanced math , act or sat, science coruces, math classes
 
 teach er certification as support
 
-
-
-highschool math and science merged as first
-
-added teaching for seond merge
-
-
-sat or act for thrid merge
-
-
-at leastt one AP for forth merge
-
-
-added enrollment for fith merge
-
--------------------
+-----------------------------------------------------------------------------------
 
 Things I would like to add still 
 
 
 
-would like to add graduation rate for each state
+*would like to add graduation rate for each state
 
+*the ratio of student ethnicity in a given school compared to the ethnicity of faculty ==> how similar does the student ehtnicity look compared to the faculty
+===> fremont highschool with significantly higher testing scores
 
-**input puerto rico sat-act input as a zero for the time being**
+------------
+
+INFO about the working code 
+
+**input puerto rico sat-act input as a zero for the time being** in reffernece to the current csv 
+
