@@ -1,0 +1,50 @@
+different wayes of normalizing the data and to set nxq matrix into a qxq matrix
+
+
+need to make a percentage matrix and a count matrix
+
+
+ap, advanced math , act or sat, science coruces, math classes
+
+teach er certification as support
+
+-----------------------------------------------------------------------------------
+
+Things I would like to add still 
+
+
+
+*would like to add graduation rate for each state
+
+*the ratio of student ethnicity in a given school compared to the ethnicity of faculty ==> how similar does the student ehtnicity look compared to the faculty
+===> fremont highschool with significantly higher testing scores
+
+-----------------------------------------------------------------------------------
+
+INFO about the working code 
+
+**input puerto rico sat-act input as a zero for the time being** in reffernece to the current csv 
+
+
+--------
+4/15/2024 meeting with Ding notes
+
+run again using original data, fixed number of pca and clusters at each level 
+
+change the value a little bit tp see if consistent to see inference 
+
+
+if everything looks good<>>>>> kmeans::: take first 2 compt and do kmean
+
+
+where will pueto rico go if we push the clusters???
+
+
+think about puerto about underrerpesentatiosn of puerto rico, on the other hand how has the government promoted this situation... why has this not changed so far?? what other differneces are there with land locked states
+
+
+put more features such as salary, payments etc. 
+imputation to make something roubust reguardless of change. 
+
+if zero changes then it is artifact 
+

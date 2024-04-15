@@ -1,0 +1,20 @@
+[1mdiff --git a/USA_States_Ranking_experiment.Rmd b/USA_States_Ranking_experiment.Rmd[m
+[1mindex 4a7c828..45db3a5 100644[m
+[1m--- a/USA_States_Ranking_experiment.Rmd[m
+[1m+++ b/USA_States_Ranking_experiment.Rmd[m
+[36m@@ -6,13 +6,14 @@[m [mdate: "`r Sys.Date()`"[m
+ [m
+ ```{r}[m
+ [m
+[31m-USA_Education_Proportions <- read.csv("C:/Users/josea/OneDrive/WorkSpace/USA_Education_Proportions_updatedforpuerto.csv", header=FALSE)[m
+[32m+[m[32mUSA_Education_Proportions <- read.csv("C:/Users/josea/OneDrive/WorkSpace/Research/USA_Education_Proportions_updatedforpuerto.csv", header=FALSE)[m
+ [m
+ [m
+ names(USA_Education_Proportions) <- c("State", "Algebra I", "Geometry", "Algebra II", "Adv. Math I", "Calculus", "Biology", "Chemistry", "Physics", "FTE COUNT", "Meeting all Lic and cert", "First year", "Second year", "SAT-ACT COUNT", "Total Enrollment", "At least one AP COUNT", "SAT-ACT", "AP")[m
+ [m
+ USA_Education_Proportions <- USA_Education_Proportions[-1, ][m
+ ```[m
+[32m+[m
+ ```{r}[m
+ #removes the first entry of the data...it cell represents the combined states[m
+ USA_Education_Proportions <- USA_Education_Proportions[-1, ][m
