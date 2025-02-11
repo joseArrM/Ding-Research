@@ -26,7 +26,7 @@ INFO about the working code
 **input puerto rico sat-act input as a zero for the time being** in reffernece to the current csv 
 
 
---------
+---------------------------------------------------------------------------------
 4/15/2024 meeting with Ding notes
 
 run again using original data, fixed number of pca and clusters at each level 
@@ -47,4 +47,53 @@ put more features such as salary, payments etc.
 imputation to make something roubust reguardless of change. 
 
 if zero changes then it is artifact 
+---------------------------------------------------------------------------------4/20/2024 meeting with Ding
+
+use of screening process
+
+add the revenue and expensess features to the data set and run the PCA as normal to see how it affects the results 
+
+
+--------------------------------------------------------------------------------
+5/6/24
+using the expenses and revenue excel documents found in common core data webpage--> fiscal year--> 2017-2018 in conjunction with the companion file to determine what features from the expenses and revenues to keep. Will use python to loop the column name changes into the appropriate names
+
+---------------------------------------------------------------------------------
+5/16/24
+
+direct outcome --> Puerto did poorly on class features, yet they are clustered with other states who performed well when adding the revenue and expenses information
+
+
+
+add more features related to teachers 
+
+
+	narrow down by looking at clusters and why Puerto Rico is behaving differently: 
+
+* population issue 
+
+* electrical/ infrastacture 
+
+
+* per student information to comb purto rico when compared to other states
+
+* perhaps the clusters have a similar population
+
+
+	detailed look at R_E dataframe
+* where do we invest money: teachers? libraries? idk 
+
+* flint Michigan 
+
+* are there similar criis 
+
+
+might redo the R_and_E dataframe to be maintenance or operation cost of running things such as teachers, books, etc instead of using the broad information used in 
+
+---------------------------------------------------------------------------------
+
+
+
+
+
 

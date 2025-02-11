@@ -1,0 +1,23 @@
+Links to data files
+
+course work information such as class proportions, SAT/ACT, student count, teacher characteristics for 2017-1018,files were aggregated using power query to create a unified file for each state including Puerto Rico as a state territory
+
+files chosen:
+advanced placement, enrollment in advanced math, overall enrollment, high schools offering mathematics classes, high schools offering science classes, SAT-or ACT participation, teacher certification and years of experience 
+
+** RAW files can be found in the research file separate from the working directory 
+
+https://civilrightsdata.ed.gov/data
+
+==================================================================================
+
+Revenue and expenses:
+used nces webpage and selected fiscal expenses under data lab choose the 2017-2018
+
+https://nces.ed.gov/ccd/files.asp#Fiscal:1,LevelId:2,SchoolYearId:32,Page:1
+
+===================================================================================high school characteristics
+
+file provided latitude and longitude information and many other rich information about individual high schools
+
+https://data-nces.opendata.arcgis.com/maps/nces::public-school-characteristics-2017-18/about
